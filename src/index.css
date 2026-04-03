@@ -1,0 +1,33 @@
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #7eaee9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+}
+
+.icon-link {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icon-link:hover {
+  color: #7eaee9;
+  transform: translateY(-3px);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
